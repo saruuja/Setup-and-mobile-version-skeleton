@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.Mobile-Main {
+  display: flex;
+  width: 375px;
+  height: 5410px;
+  left: 0;
+  background: #f7f7f9;
+}
+
+.header_sec {
+  display: flex;
+  width: 375px;
+  height: 718px;
+  left: 10px;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 12px;
+  top: 10px;
+  font-family: "Poppins", sans-serif, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  align-items: center;
+  text-align: center;
+}
+
+#menu {
+  position: relative;
+  left: 290px;
+  top: -330px;
+  font-size: 1.7rem;
+  color: #6070ff;
+}
+
+ul li {
+  display: flex;
+  list-style-type: none;
+}
+
+.Ellp_one {
+  background-image: url(img/Ell1.png);
+  position: absolute;
+  width: 38.5px;
+  height: 600px;
+  left: 10.04px;
+  top: 161.47px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Rec_one {
+  background-image: url(img/Rec1.png);
+  position: absolute;
+  width: 26.46px;
+  height: 600px;
+  left: 127.18px;
+  top: 151.59px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Ellp_two {
+  background-image: url(img/Ellp2.png);
+  position: absolute;
+  width: 50px;
+  height: 600px;
+  font-size: 3rem;
+  left: 323px;
+  top: 150.24px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  position: absolute;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 160.24px;
+  font-family: "Poppins", sans-serif, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.pra {
+  position: absolute;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 310px;
+  font-family: "Poppins", sans-serif, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.Lest {
+  position: absolute;
+  left: 24px;
+  top: 470px;
+  font-family: "Poppins", sans-serif, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social_Media {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 24px;
+  top: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.Ellp_three {
+  background-image: url(img/Ellipse3.png);
+  position: absolute;
+  width: 24.14px;
+  height: 600px;
+  left: 320.76px;
+  top: 450.69px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Ellap_four {
+  background-image: url(img/Ellipse4.png);
+  position: absolute;
+  width: 20px;
+  height: 600px;
+  left: 230px;
+  top: 550.1px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
