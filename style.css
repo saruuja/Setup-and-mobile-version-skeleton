@@ -2,7 +2,7 @@
 
 .Mobile-Main {
   display: flex;
-  width: 376px;
+  width: 375px;
   height: 5410px;
   left: 0;
   background: #f7f7f9;
@@ -31,7 +31,7 @@
   height: 40px;
   left: 12px;
   top: 10px;
-  font-family: "Poppins", sans-serif, serif;
+  font-family: 'Poppins,Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -102,7 +102,7 @@ ul li {
   top: 160.24px;
   font-family: "Poppins", sans-serif, serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 30px;
   line-height: 48px;
   display: flex;
