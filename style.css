@@ -3,7 +3,7 @@
 .Mobile-Main {
   display: flex;
   width: 375px;
-  height: 5410px;
+  height: 3500px;
   left: 0;
   background: #f7f7f9;
 }
@@ -11,7 +11,7 @@
 .header_sec {
   display: flex;
   width: 375px;
-  height: 718px;
+  height: 650px;
   left: 10px;
   background: #fff;
 }
@@ -31,7 +31,7 @@
   height: 40px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins,Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -127,7 +127,7 @@ ul li {
   position: absolute;
   left: 24px;
   top: 470px;
-  font-family: "Poppins", sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -182,7 +182,7 @@ ul li {
   width: 327px;
   height: 552px;
   left: 30px;
-  top: 638px;
+  top: 600px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -214,7 +214,7 @@ ul li {
   height: 36px;
   left: 0;
   top: 220px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -232,7 +232,7 @@ ul li {
   height: 16px;
   left: 0;
   padding-top: 290px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -262,10 +262,10 @@ ul li {
   height: 16px;
   left: 90px;
   padding-top: 290px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 16px;
   color: #7a869a;
   flex: none;
@@ -292,7 +292,7 @@ ul li {
   height: 16px;
   left: 230px;
   padding-top: 290px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -310,7 +310,7 @@ ul li {
   height: 76px;
   left: 0;
   top: 310px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins", sans-serif, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -332,7 +332,7 @@ ul li {
   height: 20px;
   left: -8px;
   top: 400px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins", sans-serif, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -357,7 +357,7 @@ ul li {
   height: 20px;
   left: 90px;
   top: 400px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins", sans-serif, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -382,7 +382,7 @@ ul li {
   height: 20px;
   left: 170px;
   top: 400px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins", sans-serif, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -403,13 +403,14 @@ ul li {
   height: 50px;
   left: 10px;
   top: 210px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  border: 1px solid  #6070ff;
+  border: 1px solid #6070ff;
+  background-color: white;
   box-sizing: border-box;
   border-radius: 10px;
   color: #6070ff;
@@ -434,7 +435,7 @@ ul li {
   width: 327px;
   height: 552px;
   left: 30px;
-  top: 1300px;
+  top: 1250px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -451,7 +452,7 @@ ul li {
   height: 80px;
   left: 0;
   top: 210px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -471,7 +472,7 @@ ul li {
   width: 327px;
   height: 552px;
   left: 30px;
-  top: 1950px;
+  top: 1900px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -490,7 +491,7 @@ ul li {
   width: 327px;
   height: 552px;
   left: 30px;
-  top: 2600px;
+  top: 2550px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -507,7 +508,7 @@ ul li {
   position: absolute;
   width: 375px;
   height: 1263px;
-  top: 3400px;
+  top: 3300px;
   background: #fff;
 }
 
@@ -517,7 +518,7 @@ ul li {
   height: 101px;
   left: 20px;
   top: 0;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -536,8 +537,8 @@ ul li {
   width: 327px;
   height: 144px;
   left: 10px;
-  top: 113px;
-  font-family: 'Poppins', sans-serif, serif;
+  top: 90px;
+  font-family: "Poppins", sans-serif, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -555,10 +556,10 @@ ul li {
   height: 24px;
   left: 10px;
   top: 280px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
@@ -585,15 +586,16 @@ ul li {
   height: 50px;
   left: 10px;
   top: 355px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  border: 1px solid  #6070ff;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 10px;
+  background-color: white;
   color: #6070ff;
   flex: none;
   order: 0;
@@ -608,13 +610,25 @@ ul li {
   transition: all 1s ease-in-out;
 }
 
+.arrow {
+  background-image: url(img/arrow.png);
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 35px;
+  top: 425px;
+}
+
 .langa {
   position: absolute;
   width: 327px;
   height: 101px;
   left: 20px;
   top: 380px;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
@@ -649,7 +663,7 @@ ul li {
   left: 76px;
   right: 25px;
   top: 15%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -680,7 +694,7 @@ ul li {
   left: 76px;
   right: 25px;
   top: 15%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -711,7 +725,7 @@ ul li {
   left: 76px;
   right: 25px;
   top: 15%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -721,13 +735,26 @@ ul li {
   color: #253858;
 }
 
+.arrow_one {
+  background-image: url(img/arrows.png);
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 35px;
+  top: 65%;
+  border-radius: 8px;
+}
+
 .Frame {
   position: absolute;
   height: 24px;
   left: 15px;
   right: 78px;
   top: 65%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
@@ -737,13 +764,38 @@ ul li {
   color: #000;
 }
 
+.line_one {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 69%;
+  color: #dfe1e6;
+  background: #dfe1e6;
+}
+
+.arrow_two {
+  background-image: url(img/arrows.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 35px;
+  top: 70%;
+  border-radius: 8px;
+}
+
 .skll {
   position: absolute;
   height: 24px;
   left: 15px;
   right: 78px;
   top: 70%;
-  font-family: 'Poppins', sans-serif, serif;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 25px;
@@ -751,4 +803,14 @@ ul li {
   display: flex;
   align-items: center;
   color: #000;
+}
+
+.line_two {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 75%;
+  color: #dfe1e6;
+  background: #dfe1e6;
 }
