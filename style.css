@@ -3,9 +3,10 @@
 .Mobile-Main {
   display: flex;
   width: 375px;
-  height: 3500px;
+  height: 4541px;
   left: 0;
   background: #f7f7f9;
+  border: 2px solid #fff;
 }
 
 .header_sec {
@@ -29,8 +30,8 @@
   position: absolute;
   width: 140px;
   height: 40px;
-  left: 12px;
-  top: 10px;
+  left: 30px;
+  top: 33px;
   font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -43,8 +44,9 @@
 
 #menu {
   position: relative;
-  left: 290px;
-  top: -330px;
+  left: 280px;
+  top: -282px;
+  right: 10px;
   font-size: 1.7rem;
   color: #6070ff;
 }
@@ -506,10 +508,13 @@ ul li {
 .about {
   display: grid;
   position: absolute;
-  width: 375px;
-  height: 1263px;
+  width: 374px;
+  left: 5;
+  height: 1250px;
   top: 3300px;
   background: #fff;
+  border: 2px;
+  border-top-right-radius: 70px 60px;
 }
 
 .abt-txt {
@@ -766,9 +771,9 @@ ul li {
 
 .line_one {
   position: absolute;
+  width: 327px;
   height: 1px;
-  left: 0;
-  right: 0;
+  left: 15px;
   top: 69%;
   color: #dfe1e6;
   background: #dfe1e6;
@@ -807,8 +812,9 @@ ul li {
 
 .line_two {
   position: absolute;
+  width: 327px;
   height: 1px;
-  left: 0;
+  left: 15px;
   right: 0;
   top: 75%;
   color: #dfe1e6;
