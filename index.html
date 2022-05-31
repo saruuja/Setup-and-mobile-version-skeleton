@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>Mobile</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -27,47 +27,41 @@
       </header>
       <!--headline section -->
       <div class="Ellipse">
+        <div class="Ellp_one"></div>
 
-        <div class="Ellp_one">
-        </div>
+        <div class="Rec_one"></div>
 
-        <div class="Rec_one">
-        </div>
+        <div class="Ellp_two"></div>
 
-        <div class="Ellp_two">
-        </div>
-
-        <div class="Ellp_three">
-        </div>
-        <div class="Ellap_four">
-
-        </div>
-
+        <div class="Ellp_three"></div>
+        <div class="Ellap_four"></div>
       </div>
       <div class="Info_text">
         <h2 class="name">I’m Sara Mohamad Glad to see you!</h2>
-        <p class="pra">I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded, don’t hestiate to contact me.
+        <p class="pra">
+          I’m a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact me.
         </p>
         <p class="Lest">LET’S CONNECT</p>
       </div>
 
       <ul class="social_Media">
         <li>
-          <a><img src="img/twitter.svg" alt="twitter_imge"></a>
+          <a><img src="img/twitter.svg" alt="twitter_imge" /></a>
         </li>
         <li>
-          <a><img src="img/Linkedin.svg" alt="Linkedin_imge"></a>
+          <a><img src="img/Linkedin.svg" alt="Linkedin_imge" /></a>
         </li>
         <li>
-          <a><img src="img/Vec.svg" alt="Media_imge"></a>
+          <a><img src="img/Vec.svg" alt="Media_imge" /></a>
         </li>
         <li>
-          <a><img src="img/Github.svg" alt="Github_imge"></a>
+          <a><img src="img/Github.svg" alt="Github_imge" /></a>
         </li>
         <li>
-          <a><img src="img/Vector.svg" alt="vector_imge"></a>
+          <a><img src="img/Vector.svg" alt="vector_imge" /></a>
         </li>
       </ul>
     </section>
@@ -234,6 +228,42 @@
         <li class="skll">Skills</li>
         <li class="line_two"></li>
       </ul>
+    </section>
+    <!--contact form-->
+    <section class="contact-form">
+      <div class="Images">
+        <div class="Ellp_five"></div>
+        <div class="Rec_two"></div>
+        <div class="Ellp_sixe"></div>
+        <div class="Rec_three"></div>
+        <div class="Ellp_sevn"></div>
+        <div class="line-shape"></div>
+      </div>
+      <h1 class="Contact_me">Contact me</h1>
+      <p class="Contact_text">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form action="/my-handling-form-page" method="post" class="form">
+        <ul>
+          <li>
+            <label for="name"></label>
+            <input class="name-box" type="text" id="name" name="user_name" placeholder="     Enter Name" required minlength="10" maxlength="30">
+          </li>
+          <li>
+            <label for="mail"></label>
+            <input class="email-box" type="email" id="mail" name="user_email" placeholder="    Enter Email" />
+          </li>
+          <li>
+            <label for="msg"></label>
+            <textarea id="msg" name="user_message" placeholder="   write your Message here" class="msg_box" maxlength="500"></textarea>
+          </li>
+          <li >
+            <button type="submit" class="last-btn">Get it Touch</button>
+          </li>
+        </ul>
+      </form>
     </section>
   </section>
 </body>

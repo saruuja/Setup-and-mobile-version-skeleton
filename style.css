@@ -3,7 +3,7 @@
 .Mobile-Main {
   display: flex;
   width: 375px;
-  height: 4541px;
+  height: 5125px;
   left: 0;
   background: #f7f7f9;
   border: 2px solid #fff;
@@ -508,8 +508,8 @@ ul li {
 .about {
   display: grid;
   position: absolute;
-  width: 374px;
-  left: 5;
+  width: 375px;
+  left: 0.6rem;
   height: 1250px;
   top: 3300px;
   background: #fff;
@@ -819,4 +819,167 @@ ul li {
   top: 75%;
   color: #dfe1e6;
   background: #dfe1e6;
+}
+
+/* contact-form */
+.contact-form {
+  display: flex;
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0.6rem;
+  top: 4350px;
+  background: #6070ff;
+  border: 2px;
+  border-top-left-radius: 80px 80px;
+}
+
+.Ellp_five {
+  background-image: url(img/Ellipse5.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 153px;
+  top: 70px;
+}
+
+.Rec_two {
+  display: flex;
+  background-image: url(img/Rectangle2.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 74.7px;
+  height: 17.21px;
+  left: 300.5px;
+  top: 40px;
+  background-color: #7f8cff;
+  transform: rotate(-20.18deg);
+}
+
+.Ellp_sixe {
+  background-image: url(img/Ellipse6.png);
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  left: 328px;
+  top: 50px;
+  background-repeat: no-repeat;
+}
+
+.Contact_me {
+  position: absolute;
+  width: 801px;
+  height: 56px;
+  left: 70px;
+  top: 60px;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.Contact_text {
+  position: absolute;
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  top: 140px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.name-box {
+  position: absolute;
+  width: 320px;
+  height: 42px;
+  left: 24px;
+  top: 320px;
+  border: 1px solid #cfd8dc;
+  border-radius: 9px;
+}
+
+.email-box {
+  position: absolute;
+  width: 320px;
+  height: 42px;
+  left: 24px;
+  top: 385px;
+  border: 1px solid #cfd8dc;
+  border-radius: 9px;
+}
+
+.msg_box {
+  position: absolute;
+  width: 320px;
+  height: 170px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  left: 24px;
+  top: 450px;
+  border: 1px solid #cfd8dc;
+  border-radius: 9px;
+}
+
+.last-btn {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  left: 24px;
+  top: 645px;
+  font-family: "Poppins,Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #6070ff;
+  background-color: white;
+  border-radius: 10px;
+  color: #6070ff;
+}
+
+.last-btn:hover {
+  background-color: lightslategrey;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.Rec_three {
+  position: absolute;
+  width: 76.17px;
+  height: 13.63px;
+  left: 250px;
+  top: 645px;
+  background: #7f8cff;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+
+.Ellp_sevn {
+  background-image: url(img/Ellipse7.png);
+  position: absolute;
+  width: 31.11px;
+  height: 31.11px;
+  left: 250px;
+  top: 650px;
+}
+
+.line-shape {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: 30%;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
 }
