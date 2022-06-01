@@ -9,6 +9,10 @@
 - HTML/CSS
 - Technologies used Git/Github
 
+## INFO OF PROJECT
+- This projet is the number of Section to follow in order to create a portfolio website. 
+I have to use HTML & CSS best practices, Github flow and linter, to configure a github repos and prepare it.
+
 ## Authors
 
 👤 **Sara Mohamad**
