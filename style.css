@@ -211,6 +211,10 @@ ul li {
   margin: 12px 0;
 }
 
+.animate:hover {
+  transform: scale(0.7);
+}
+
 .Project_Title {
   display: grid;
   position: absolute;
