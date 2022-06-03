@@ -612,6 +612,7 @@ ul li {
   order: 0;
   flex-grow: 0;
   margin: 0 0;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .button:hover {
@@ -619,6 +620,8 @@ ul li {
   color: #fff;
   cursor: pointer;
   transition: all 1s ease-in-out;
+  transform: rotate(180deg);
+
 }
 
 .arrow {
