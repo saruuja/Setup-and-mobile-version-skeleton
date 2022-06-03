@@ -211,6 +211,10 @@ ul li {
   margin: 12px 0;
 }
 
+.animate:hover {
+  transform: scale(0.7);
+}
+
 .Project_Title {
   display: grid;
   position: absolute;
@@ -608,6 +612,7 @@ ul li {
   order: 0;
   flex-grow: 0;
   margin: 0 0;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .button:hover {
@@ -615,6 +620,8 @@ ul li {
   color: #fff;
   cursor: pointer;
   transition: all 1s ease-in-out;
+  transform: rotate(180deg);
+
 }
 
 .arrow {
@@ -951,11 +958,33 @@ ul li {
 }
 
 .last-btn:hover {
-  background-color: lightslategrey;
-  color: #fff;
-  cursor: pointer;
-  transition: all 1s ease-in-out;
+  background: linear-gradient(to right,pink 40%,skyblue 60%);
+ box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+ color: #fff;
+ cursor: pointer;
+ transition: all 1s ease-in-out;
 }
+.Contact_me {
+ animation-duration: 5s;
+ animation-name: text;
+}
+
+@keyframes text {
+ from {
+   margin-left: -15%;
+   width: 50%;
+  background-color: whitesmoke;
+  color:maroon;
+  border-radius: 10px;
+  font-size: 24px;
+ }
+
+ to {
+   margin-left:5%;
+   width: 70%;
+ }
+}
+
 
 .Rec_three {
   position: absolute;
